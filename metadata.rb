@@ -1,4 +1,4 @@
-name 'lxc'
+name 'container'
 maintainer 'Ranjib Dey'
 maintainer_email 'ranjib@linux.com'
 license 'Apache 2.0'

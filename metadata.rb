@@ -4,7 +4,6 @@ maintainer_email 'ranjib@linux.com'
 license 'Apache 2.0'
 description 'Installs lxc and offers containers as resource'
 version '0.0.1'
-depends 'apt'
 depends 'build-essential'
 
 supports 'ubuntu'

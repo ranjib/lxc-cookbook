@@ -4,7 +4,7 @@ execute 'apt-get update -y' do
   not_if 'dpkg -s lxc'
 end
 
-%w{python-requestbuilder liblxc0 lxc lxc-templates lxc-dev python3-lxc}.each do |pkg|
+%w{lxc liblxc0 lxc-templates lxc-dev python3-lxc}.each do |pkg|
   package pkg
 end
 

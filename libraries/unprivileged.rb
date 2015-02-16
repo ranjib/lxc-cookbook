@@ -67,6 +67,7 @@ class Chef::Provider::ContainerUser < Chef::Provider::LWRPBase
       group container_user
       mode 0644
       source 'lxc.conf.erb'
+      cookbook 'container'
       variables(
         subuid_start: subuid_start,
         subuid_range: subuid_range,
